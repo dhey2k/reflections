@@ -1,19 +1,29 @@
 What happens when you initialize a repository? Why do you need to do it?
-it makes .git file which stores metadata & history of changes in wowking directory.
+it makes .git file which stores metadata & history of changes in wowking directory.version of file stored in repository.
 How is the staging area different from the working directory and the repository?
+
 staging area monitor,files in working directory that you can add to repository.
+
 What value do you think it offers?
+The option to create your set of files which you want to commit without having to add all new files
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+ The staging area gives you the possibility to decide which files should be part of the commit and which not.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Work on conflicting changes, trying out new features, large code refactoring.
+if help with experimental features.
 
 How do the diagrams help you visualize the branch structure?
+different branches merge & there commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+single new branch.relations between commits and branches.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Automatic merging saves a lot of time compared to doing merges manually.
+but to resolve conflict you have to do manually
